@@ -16,5 +16,6 @@ app.get('/', (req, res) => {
   res.send('Welcome to School Management API');
 });
 
-app.listen(PORT, () => {`Server running in ${ENV} mode on port ${PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server running in ${ENV} mode on port ${PORT}`);
 });
